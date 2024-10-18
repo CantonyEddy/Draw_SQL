@@ -1,12 +1,12 @@
 # SQL - Examen II - Plateforme E-commerce - README
 
 ## Vue d'ensemble
-Ce dépôt contient une conception de base de données pour une plateforme de commerce électronique. L'objectif de ce projet est de créer un modèle de base de données relationnelle complet qui peut gérer les produits, les clients, les commandes, les fournisseurs, l'inventaire, et d'autres éléments essentiels nécessaires aux opérations d'un détaillant en ligne.
+Ce dépôt contient la base de données pour une plateforme de commerce en ligne comme demandé dans le TP. L'objectif de ce projet est de créer un modèle de base de données relationnelle complet qui peut gérer les produits, les clients, les commandes, les fournisseurs, l'inventaire, et d'autres éléments essentiels nécessaires aux opérations d'un détaillant en ligne.
 
 ## Décisions de Conception
 Voici une brève explication des principales décisions de conception pour le schéma de la base de données, en se concentrant sur les aspects qui n'étaient pas spécifiés explicitement dans les exigences initiales :
 
-1. **Table Payments** : J'ai ajouté une table `Payments` pour assurer une traçabilité financière complète pour chaque commande. Cette table aide à gérer les informations de paiement, y compris la méthode de paiement, le montant et le statut, ce qui améliore la fiabilité du suivi des données financières.
+1. **Table Payments** : J'ai ajouté une table `Payments` pour assurer une traçabilité financière complète pour chaque commande et pour m'amuser un peu. Cette table aide à gérer les informations de paiement, y compris la méthode de paiement, le montant et le statut, ce qui améliore la fiabilité du suivi des données financières.
 
 2. **Table Consumption List** : La table `Consumption List` a été ajoutée pour suivre l'historique des achats des clients. Cela permet une meilleure analyse du comportement des consommateurs et aide à mettre en place des stratégies de marketing ciblé. Elle permet également à l'entreprise d'analyser les habitudes d'achat pour la gestion des stocks et des ventes.
 
